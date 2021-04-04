@@ -43,7 +43,7 @@ function App() {
       src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.8562-6/120009688_325579128711709_1736249742330805861_n.png?_nc_cat=1&ccb=1-3&_nc_sid=6825c5&_nc_ohc=aesj5-dDN_oAX8sqKkD&_nc_ht=scontent.fhan2-5.fna&oh=54dc26bcd7e01d1cc6b339d275483785&oe=60853FFD"
       alt="messenger logo" />
       <h1>Messenger</h1>
-      <h2>Welcome to Messenger, {username || 'Unknown User'}!</h2>
+      <p style={{color:"#888"}}>Welcome to Messenger, {username || 'Unknown User'}!</p>
       <form className="app__form">
         <FormControl className="app__formControl">
           <Input className="app__input" value={input} placeholder="Send a message..." 
